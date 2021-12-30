@@ -1,3 +1,53 @@
-body {
-    background: pink;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font: 1.5em/1.6 "Poiret One", cursive;
+  color: #252525;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Calistoga", cursive;
+  line-height: 1.25;
+}
+
+.section {
+  max-width: 45ch;
+  margin: 2em auto;
+}
+
+.header {
+  font-family: "Calistoga", cursive;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.divider-line {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1 1 100%;
+  flex-direction: row;
+}
+.divider-line::before, .divider-line::after {
+  content: "";
+  flex: 1;
+  padding: 0.5px;
+  background: currentColor;
+  align-self: center;
+  margin: 0;
+  opacity: 0.5;
+}
+.divider-line__text {
+  margin: 0 0.5em;
+}
+
+/*# sourceMappingURL=style.css.map */

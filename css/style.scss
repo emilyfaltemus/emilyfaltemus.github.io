@@ -1,0 +1,9 @@
+@use "layouts/document";
+@use "layouts/section";
+@use "layouts/header";
+@use "layouts/main";
+
+@include document.base;
+@include section.base;
+@include header.base;
+@include main.base;

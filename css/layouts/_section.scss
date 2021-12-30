@@ -1,0 +1,10 @@
+$select: ".section" !default;
+
+@mixin base {
+    #{$select} {
+        max-width: 45ch;
+        margin: 2em auto;
+
+        @content;
+    }
+}
